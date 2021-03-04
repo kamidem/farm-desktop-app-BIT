@@ -1,0 +1,88 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+  word-break: break-all;
+}
+
+main {
+  display: inline-block;
+  background-color: yellow;
+  width: 800px;
+  margin-left: calc((100% - 800px) / 2);
+  height: 450px;
+}
+
+.left-column {
+  display: inline-block;
+  float: left;
+  width: 65%;
+  height: 100%;
+  background-color: blue;
+}
+.top-row {
+  height: 45%;
+  background-color: gold;
+}
+.bottom-row {
+  height: 5%;
+  background-color: beige;
+}
+.left-col {
+  display: inline-block;
+  float: left;
+  width: 55%;
+  height: 100%;
+  background-color: aqua;
+}
+.right-col {
+  display: inline-block;
+  float: left;
+  width: 45%;
+  height: 100%;
+  background-color: coral;
+}
+.right-column {
+  display: inline-block;
+  float: left;
+  width: 35%;
+  height: 100%;
+  background-color: red;
+}
+.right-top-row {
+  background-color: cornflowerblue;
+  height: 45%;
+}
+.right-bottom-row {
+  background-color: forestgreen;
+  height: 55%;
+}
+footer {
+  width: 800px;
+  margin-left: calc((100% - 800px) / 2);
+  background-color: purple;
+  height: 40px;
+}
+.footer-1 {
+  display: inline-block;
+  float: left;
+  width: 25%;
+  height: 100%;
+  background-color: bisque;
+}
+.footer-2 {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: chocolate;
+}
+.footer-3 {
+  display: inline-block;
+  float: left;
+  width: 25%;
+  height: 100%;
+  background-color: indianred;
+}
