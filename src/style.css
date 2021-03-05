@@ -10,7 +10,7 @@ body * {
 
 main {
   display: inline-block;
-  background-color: ghostwhite;
+  background-color: white;
   width: 1000px;
   margin-left: calc((100% - 1000px) / 2);
   height: 600px;
@@ -21,7 +21,6 @@ main {
   float: left;
   width: 75%;
   height: 100%;
-  background-color: antiquewhite;
 }
 
 .top-row {
@@ -53,7 +52,7 @@ button {
   float: left;
   width: 66px;
   background-color: white;
-  border: 1px solid #ccc;
+  border: 1px solid #dfe7ef;
   border-radius: 50px;
   height: 120px;
   font-size: 11px;
@@ -97,21 +96,18 @@ button {
 
 .bottom-row {
   height: 60%;
-  background-color: burlywood;
 }
 .left-col {
   display: inline-block;
   float: left;
   width: calc(55% - 80px);
   height: calc(100% - 80px);
-  background-color: aqua;
-  margin: 40px;
-
-  border: 1px solid #ccc;
+  margin: 33px 35px 37px 35px;
+  border: 1px solid #dfe7ef;
   border-radius: 30px;
 }
 .left-col > h2 {
-  margin: 40px 0 0 40px;
+  margin: 35px 0 0 40px;
   font-size: 19px;
   margin-bottom: 6px;
 }
@@ -122,22 +118,23 @@ button {
   line-height: 18px;
 }
 .left-col > img {
-  width: 380px;
+  display: inline-block;
+  width: 370px;
+  margin-top: 40px;
 }
 
 .right-col {
   display: inline-block;
   float: left;
   padding: 20px;
-  padding-top: 40px;
+  padding-top: 30px;
   width: 45%;
   height: 100%;
-  background-color: coral;
 }
 .right-col > h2 {
   display: inline-block;
   font-size: 19px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   margin-right: 160px;
   margin-left: 5px;
 }
@@ -206,6 +203,7 @@ button {
   background-color: forestgreen;
   height: 55%;
 }
+
 footer {
   width: 1000px;
   margin-left: calc((100% - 1000px) / 2);
