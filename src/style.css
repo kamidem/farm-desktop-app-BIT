@@ -36,7 +36,7 @@ main {
 .date {
   font-weight: 100;
 }
-.intro-text > button {
+button {
   width: 25px;
   height: 25px;
   margin-left: 15px;
@@ -97,35 +97,100 @@ main {
 
 .bottom-row {
   height: 60%;
-  background-color: beige;
+  background-color: burlywood;
 }
 .left-col {
   display: inline-block;
   float: left;
-  width: calc(55% - 60px);
-  height: calc(100% - 60px);
+  width: calc(55% - 80px);
+  height: calc(100% - 80px);
   background-color: aqua;
-  margin: 30px;
-  padding: 30px;
+  margin: 40px;
+
   border: 1px solid #ccc;
   border-radius: 30px;
 }
 .left-col > h2 {
-  font-size: 18px;
+  margin: 40px 0 0 40px;
+  font-size: 19px;
   margin-bottom: 6px;
 }
 .left-col > p {
+  margin: 0 0 0 40px;
   font-size: 12px;
   color: gray;
   line-height: 18px;
 }
+.left-col > img {
+  width: 380px;
+}
+
 .right-col {
   display: inline-block;
   float: left;
+  padding: 20px;
+  padding-top: 40px;
   width: 45%;
   height: 100%;
   background-color: coral;
 }
+.right-col > h2 {
+  display: inline-block;
+  font-size: 19px;
+  margin-bottom: 20px;
+  margin-right: 160px;
+  margin-left: 5px;
+}
+.right-col > div {
+  border: none;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 76px;
+  height: 75px;
+}
+.right-col > div:last-of-type {
+  margin-bottom: 0;
+  background-color: #f2ffcc;
+  color: #70a922;
+}
+.water-stats {
+  background-color: #d8f8ff;
+  color: #2297d2;
+}
+.tractor-stats {
+  background-color: #fff4cc;
+  color: #d79e22;
+}
+.emoji {
+  display: inline-block;
+  float: left;
+  width: 29%;
+  font-size: 36px;
+  padding-left: 10px;
+}
+.stat-name {
+  display: inline-block;
+  width: 40%;
+  margin-top: 5px;
+  color: black;
+}
+.big-stat-name {
+  font-size: 14px;
+  font-weight: 700;
+}
+.small-stat-name {
+  font-size: 12px;
+  color: gray;
+}
+.stat-number {
+  display: inline-block;
+  width: 29%;
+  text-align: center;
+  margin-top: 10px;
+  padding-left: 5px;
+  font-weight: 500;
+}
+
 .right-column {
   display: inline-block;
   float: left;
