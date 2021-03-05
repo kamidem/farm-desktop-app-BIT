@@ -7,13 +7,17 @@ body * {
   word-break: break-all;
   font-family: "Quicksand", sans-serif;
 }
-
+body {
+  background-color: #e6ebf5;
+}
 main {
   display: inline-block;
   background-color: white;
   width: 1000px;
   margin-left: calc((100% - 1000px) / 2);
   height: 600px;
+  border-radius: 30px;
+  margin-top: 30px;
 }
 
 .left-column {
@@ -102,14 +106,14 @@ button {
   float: left;
   width: calc(55% - 80px);
   height: calc(100% - 80px);
-  margin: 33px 35px 37px 35px;
+  margin: 33px 35px 37px 43px;
   border: 1px solid #dfe7ef;
   border-radius: 30px;
 }
 .left-col > h2 {
   margin: 35px 0 0 40px;
   font-size: 19px;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 .left-col > p {
   margin: 0 0 0 40px;
@@ -134,16 +138,15 @@ button {
 .right-col > h2 {
   display: inline-block;
   font-size: 19px;
-  margin-bottom: 15px;
-  margin-right: 160px;
-  margin-left: 5px;
+  margin: 3px 145px 15px 5px;
 }
 .right-col > div {
   border: none;
-  margin-bottom: 10px;
+  margin-bottom: 13px;
   padding: 15px;
   border-radius: 76px;
-  height: 75px;
+  height: 73px;
+  width: 280px;
 }
 .right-col > div:last-of-type {
   margin-bottom: 0;
