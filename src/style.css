@@ -11,9 +11,9 @@ body * {
 main {
   display: inline-block;
   background-color: ghostwhite;
-  width: 800px;
-  margin-left: calc((100% - 800px) / 2);
-  height: 450px;
+  width: 1000px;
+  margin-left: calc((100% - 1000px) / 2);
+  height: 600px;
 }
 
 .left-column {
@@ -26,18 +26,19 @@ main {
 
 .top-row {
   height: 40%;
-  padding: 30px 5px 20px 30px;
+  padding: 40px;
 }
 .intro-text {
   margin-bottom: 25px;
-  line-height: 20px;
+  line-height: 25px;
+  font-size: 20px;
 }
 .date {
   font-weight: 100;
 }
 .intro-text > button {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   margin-left: 15px;
   border-radius: 50%;
   border-color: transparent;
@@ -47,35 +48,38 @@ main {
 .veg,
 .all {
   display: inline-block;
-  margin-right: 12px;
+  margin-right: 15px;
   text-align: center;
   float: left;
-  width: 10%;
+  width: 66px;
   background-color: white;
   border: 1px solid #ccc;
   border-radius: 50px;
-  height: 100px;
-  font-size: 10px;
+  height: 120px;
+  font-size: 11px;
+  color: #ccc;
 }
 .veg-emoji {
-  font-size: 30px;
-  margin-top: 8px;
+  font-size: 33px;
+  margin-top: 12px;
 }
 .weight {
-  margin: 5px 0;
-  font-size: 13px;
+  line-height: 34px;
+  font-size: 16px;
   font-weight: 700;
+  color: black;
 }
 .all {
-  width: 54px;
+  width: 66px;
   background-color: #6236ff;
-  margin-left: 15px;
+  margin-left: 37px;
+  margin-right: 0;
   color: #fff;
   border: none;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
 }
 .all > span {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 50px;
 }
 .all > button {
@@ -85,10 +89,10 @@ main {
   color: #6236ff;
   font-size: 20px;
   font-weight: 700;
-  height: 48px;
-  width: 48px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
-  margin: 0 0 3px 3px;
+  margin: 7px 0 3px 3px;
 }
 
 .bottom-row {
@@ -138,10 +142,10 @@ main {
   height: 55%;
 }
 footer {
-  width: 800px;
-  margin-left: calc((100% - 800px) / 2);
+  width: 1000px;
+  margin-left: calc((100% - 1000px) / 2);
   background-color: purple;
-  height: 40px;
+  height: 70px;
 }
 .footer-1 {
   display: inline-block;
