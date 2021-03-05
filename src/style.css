@@ -196,15 +196,33 @@ button {
   float: left;
   width: 25%;
   height: 100%;
-  background-color: red;
 }
 .right-top-row {
-  background-color: cornflowerblue;
   height: 45%;
 }
 .right-bottom-row {
-  background-color: forestgreen;
-  height: 55%;
+  background-color: #6236ff;
+  height: calc(55% - 47px);
+  margin-bottom: 44px;
+  margin-top: 3px;
+  border-radius: 50px;
+}
+.left-co {
+  display: inline-block;
+  float: left;
+  width: 35%;
+  color: #66b042;
+  font-size: 22px;
+  margin-top: 85px;
+}
+.right-co {
+  display: inline-block;
+  float: left;
+  width: 65%;
+}
+.right-co > img {
+  width: 175px;
+  margin-top: 37px;
 }
 
 footer {
