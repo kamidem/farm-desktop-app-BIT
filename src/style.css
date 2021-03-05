@@ -113,11 +113,11 @@ button {
 .left-col > h2 {
   margin: 35px 0 0 40px;
   font-size: 19px;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 }
 .left-col > p {
   margin: 0 0 0 40px;
-  font-size: 12px;
+  font-size: 11px;
   color: gray;
   line-height: 18px;
 }
@@ -196,15 +196,70 @@ button {
   float: left;
   width: 25%;
   height: 100%;
-  background-color: red;
 }
 .right-top-row {
-  background-color: cornflowerblue;
   height: 45%;
 }
 .right-bottom-row {
-  background-color: forestgreen;
-  height: 55%;
+  background-color: #6236ff;
+  height: calc(55% - 47px);
+  margin-bottom: 44px;
+  margin-top: 3px;
+  border-radius: 50px;
+}
+.left-co {
+  display: inline-block;
+  float: left;
+  width: 35%;
+  color: #66b042;
+  font-size: 22px;
+  margin-top: 85px;
+}
+.right-co {
+  display: inline-block;
+  float: left;
+  width: 65%;
+}
+.right-co > img {
+  width: 175px;
+  margin-top: 37px;
+  position: absolute;
+}
+.top-ro {
+  color: #fff;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.top-ro > h2 {
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+.top-ro > p {
+  font-size: 11px;
+  line-height: 18px;
+}
+.square {
+  height: 100px;
+  width: 50px;
+  background-color: #6236ff;
+  position: relative;
+  float: right;
+  top: 225px;
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+  float: right;
+  top: 173px;
+  right: -50px;
+}
+.bottom-ro > img {
+  width: 200px;
+  margin-top: 17px;
+  margin-left: 67px;
 }
 
 footer {
