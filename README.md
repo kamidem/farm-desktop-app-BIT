@@ -1,10 +1,10 @@
-# farm-website
+# farm-desktop-app
 
 1st personal practice project, Full Stack Course @ BIT (Baltic Institute of Technology)
 
 ## Links
 
-Project published on https://kamidem.github.io/farm-desktop-app-BIT/
+Project published on https://kamidem.github.io/farm-desktop-app-P/
 
 Project Design: [Farm Desktop App](https://dribbble.com/shots/7286604-Farms-Desktop-App/attachments/229825?mode=media)
 
