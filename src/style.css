@@ -20,6 +20,7 @@ main {
   height: 600px;
   border-radius: 30px;
   margin-top: 30px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.03);
 }
 
 .left-column {
@@ -281,6 +282,7 @@ footer {
   margin-top: 13px;
   padding: 8px;
   border-radius: 50%;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.03);
 }
 .footer-1 > img {
   width: 22px;
@@ -294,6 +296,7 @@ footer {
   border-radius: 32px;
   margin-left: 6px;
   padding-left: 20px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.03);
 }
 .footer-2 > p {
   line-height: 64px;
@@ -308,6 +311,7 @@ footer {
   height: 100%;
   background-color: #6236ff;
   padding-top: 19px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.03);
 }
 .home-button {
   padding: 5px 10px;
@@ -329,6 +333,7 @@ footer {
   height: 100%;
   background-color: #6236ff;
   border-radius: 32px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.03);
 }
 .footer-4 > p {
   float: left;
