@@ -9,7 +9,9 @@ body * {
 }
 body {
   background-color: #e6ebf5;
+  position: relative;
 }
+
 main {
   display: inline-block;
   background-color: white;
@@ -39,7 +41,8 @@ main {
 .date {
   font-weight: 100;
 }
-button {
+.intro-text > button,
+.right-col > button {
   width: 25px;
   height: 25px;
   margin-left: 15px;
@@ -265,27 +268,99 @@ button {
 footer {
   width: 1000px;
   margin-left: calc((100% - 1000px) / 2);
-  background-color: purple;
-  height: 70px;
+  height: 64px;
 }
+
 .footer-1 {
   display: inline-block;
   float: left;
-  width: 25%;
-  height: 100%;
-  background-color: bisque;
+  width: calc(5% - 12px);
+  height: calc(100% - 26px);
+  background-color: #6236ff;
+  margin: 13px 6px;
+  margin-top: 13px;
+  padding: 8px;
+  border-radius: 50%;
+}
+.footer-1 > img {
+  width: 22px;
 }
 .footer-2 {
   display: inline-block;
   float: left;
-  width: 50%;
+  width: calc(25% - 6px);
   height: 100%;
-  background-color: chocolate;
+  background-color: #6236ff;
+  border-radius: 32px;
+  margin-left: 6px;
+  padding-left: 20px;
+}
+.footer-2 > p {
+  line-height: 64px;
+  font-size: 11px;
+  color: #fff;
+  font-weight: 600;
 }
 .footer-3 {
   display: inline-block;
   float: left;
+  width: 45%;
+  height: 100%;
+  background-color: #6236ff;
+  padding-top: 19px;
+}
+.home-button {
+  padding: 5px 10px;
+  margin-left: 20px;
+  color: #fff;
+  background-color: #754eff;
+  border: none;
+  border-radius: 13px;
+  display: inline-block;
+}
+.footer-3 > img {
+  height: 25px;
+  margin-left: 30px;
+}
+.footer-4 {
+  display: inline-block;
+  float: left;
   width: 25%;
   height: 100%;
-  background-color: indianred;
+  background-color: #6236ff;
+  border-radius: 32px;
+}
+.footer-4 > p {
+  float: left;
+  color: #fff;
+  margin-left: 70px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 64px;
+}
+.footer-4 > img {
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+  height: 57px;
+  margin-left: 20px;
+}
+.square-1 {
+  height: 65px;
+  width: 944px;
+  background-color: #6236ff;
+  position: absolute;
+  float: right;
+  right: calc((100% - 1000px) / 2);
+  top: 600px;
+  z-index: -1;
+}
+.square-2 {
+  height: 50px;
+  width: 700px;
+  background-color: #6236ff;
+  position: absolute;
+  top: 644px;
+  left: 320px;
+  z-index: -1;
 }
