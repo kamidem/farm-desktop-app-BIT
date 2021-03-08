@@ -1,4 +1,4 @@
-# farm-website
+# farm-desktop-app
 
 1st personal practice project, Full Stack Course @ BIT (Baltic Institute of Technology)
 
