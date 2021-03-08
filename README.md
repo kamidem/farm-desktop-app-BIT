@@ -4,7 +4,7 @@
 
 ## Links
 
-Project published on https://kamidem.github.io/farm-desktop-app-BIT/
+Project published on https://kamidem.github.io/farm-desktop-app-P/
 
 Project Design: [Farm Desktop App](https://dribbble.com/shots/7286604-Farms-Desktop-App/attachments/229825?mode=media)
 
